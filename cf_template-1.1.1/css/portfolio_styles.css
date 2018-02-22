@@ -1,0 +1,467 @@
+/****index.html****/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	position: relative;
+	padding-top: 4em;
+	background-color: #8aa7a2;
+	color: #567570;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.container-fluid {
+	padding-left: -15px;
+	padding-right: -15px;
+}
+
+.header h1 {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #bcd3cf;
+}
+
+/****navigation bar****/
+
+.navbar {
+	background-color: #567570;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	background-color: #8aa7a2;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+	background-color: #8aa7a2;
+}
+
+.navbar .container-fluid .navbar-collapse .nav .dropdown .dropdown-menu {
+	background-color: #567570;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+	background-color: #567570;
+	text-decoration: underline;
+}
+
+.Ben-Searle {
+	text-transform: uppercase;
+}
+
+.navbar .container-fluid .navbar-header .Ben-Searle a {
+	color: #a5c5bf;
+}
+
+.navbar .container-fluid .collapse .nav li a {
+	color: #a5c5bf;
+}
+
+.navbar .container-fluid .collapse .nav li a:hover {
+	color: #bcd3cf;
+}
+
+.navbar .container-fluid .navbar-header .Ben-Searle a:hover {
+	color: #bcd3cf;
+	text-decoration: none;
+}
+
+.anchor {
+	padding-top: 100px;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+	background-color: #8aa7a2;
+}
+
+/****end navigation bar****/
+/****carousel****/
+
+.carousel-caption {
+	position: absolute;
+	top: 20px;
+}
+
+.carousel-caption h3 {
+	color: white;
+}
+
+@media (max-width: 480px) {
+	.carousel-caption h3 {
+		position: relative;
+		top: 5px;
+		text-align: center;
+		height: 20px;
+		font-size: 75%;
+	}
+}
+
+@media (max-width: 480px) {
+	.carousel-caption p {
+		position: relative;
+		bottom: 5%;
+		text-align: center;
+		font-size: 75%;
+	}
+}
+
+@media (max-width: 480px) {
+	#index {
+		margin-bottom: 30px;
+	}
+}
+
+/**** end carousel ****/
+/**** project ****/
+#project {
+	width: 100%;
+}
+
+@media (max-width: 1024px) {
+	.intro-blocks {
+		width: 100%;
+		margin-top: 40px;
+		margin-left: 1px;
+		margin-bottom: 15px;
+		margin-right: 1px;
+		background-color: #bcd3cf;
+		text-align: center;
+	}
+}
+
+@media (min-width: 1025px) {
+	.intro-blocks {
+		width: 30%;
+		display: inline-block;
+		margin-top: 40px;
+		margin-left: 25px;
+		margin-bottom: 15px;
+		margin-right: 25px;
+		text-align: center;
+		background-color: #bcd3cf;
+	}	
+}
+
+/**** end index ****/
+/**** Work ****/
+
+.work-image {
+	width: 100%;
+	margin-top: 2em;
+	padding: 0.5em;
+	background-color: #bcd3cf;
+}
+
+.work-img {
+	display: block;
+	margin: auto;
+	max-width: 300px;
+	position: relative;
+}
+
+.info {
+	display: none;
+	position: absolute;
+	top: 15%;
+	left: 30%;
+	color: #fff;
+	font-family: Futura;
+	text-transform: uppercase;
+	font-weight: 700;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.proj-title {
+	font-weight: 100;
+}
+
+/**** end work ****/
+/****about.html****/
+
+#about-me {
+	margin-top: 50px;
+}
+
+.about-image {
+	width: 100%;
+	padding: 0.5em;
+	background-color: #bcd3cf;
+}
+
+#about-me col-md-4 {
+	width: 100%;
+}
+
+.background-info {
+	background-color: #bcd3cf;
+	padding: 0.5em;
+}
+
+.background-info h2 {
+	text-align: center;
+}
+
+.my-skills {
+	background-color: #bcd3cf;
+	padding: 0.5em;
+}
+
+.my-skills h2 {
+	text-align: center;
+}
+
+.main-text {
+	padding: 15px;
+	background-color: #bcd3cf;
+}
+
+.main-text h2 {
+	text-align: center;
+}
+
+/****end about****/
+/****contact me****/
+
+#contact-information h1 {
+	margin-bottom: : 100px;
+}
+
+#map {
+	height: 300px;
+	width: 100%;
+}
+
+#contact {
+	color: white;
+	background-color: transparent;
+}
+
+#contact-details li {
+	list-style-type: none;
+}
+
+#contact .col-lg-4 h3, ul {
+	text-align: left;
+}
+
+.inline-field {
+	width: 50%;
+	float: left;
+}
+
+.form-lower-row {
+	width: 100%;
+	float: left;
+}
+
+#contact {
+	margin-top: 30px;
+    background-image: url("../img/contact-parallax-image.jpg");
+/*Add a background image*/
+	background-attachment: fixed;
+/*Give the background a fixed position so it does not scroll when you scroll*/
+	background-size: cover;
+/*Have the background cover the entire div section*/
+	color: white;
+/*Change the colour of the text on top so it is readable, and adjust the padding as needed.*/
+	}
+
+#map {
+	margin-top: 30px;
+	padding-right: 50px;
+}
+
+.form-control {
+	width: 80%;
+}
+
+#message-box {
+	height: 150px;
+}
+.form-group .btn {
+	margin-top: 10px;
+}
+
+/****end contact me****/
+/****FAQ****/
+
+#learn-more h1 {
+	margin-top: 100px;
+}
+
+#learn-more .btn-primary {
+	margin-top: 90px;
+}
+
+.learn-more {
+	text-align: left;
+	float: left;
+}
+
+.modal-button {
+	float: right;
+	padding: 15px;
+}
+.modal-header .modal-title {
+	display: inline-block;
+}
+
+.modal-header .button {
+	display: inline-block;
+	position: relative;
+	top: 1px;
+	right: 1px;
+	float: right;
+}
+
+#modalembed {
+	height: 500px;
+	width: 100%;
+	padding: 10px;
+}
+
+@media (max-width: 480px) {
+	.learn-more {
+		position: relative;
+		top: 20px;
+		left: 5px;
+		width: 100%;
+		display: inline-block;
+		margin: 10px 0px;
+		padding: -15px;
+	}
+}
+
+@media (min-width: 481px) {
+	.learn-more {
+		margin-left: 150px;
+	}
+}
+
+@media (max-width: 480px) {
+	.modal-button {
+		position: relative;
+		top: 20px;
+		right: 5px;
+		width: 100%;
+		display: inline-block;
+		margin: 10px 0px;
+		padding: -15px;
+	}
+}
+
+@media (min-width: 481px) {
+	.modal-button {
+		margin-right: 160px;
+	}
+}
+
+#FAQ {
+	margin-top: 20px;
+}
+
+#accordion {
+	margin-top: 2em;
+}
+
+/**** end FAQ****/
+/**** video ****/
+
+.embed-responsive {
+	margin-top:50px;
+	width: 50%;
+	padding-bottom: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (max-width: 480px) {
+	.embed-responsive {
+		width: 100%;
+		margin-top: 30px 10px;
+	}
+}
+
+.video-frame {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	background-color: #bcd3cf;
+}
+
+/**** Footer ****/
+
+footer {
+	margin-top: 100px;
+	padding-top: 50px;
+	width: 100%;
+}
+
+/****typography****/
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'arial black, arial, tahoma, sans-serif';
+}
+
+p,
+li {
+	font-family: 'Georgia, Times, serif';
+}
+
+.intro p {
+	font-weight: 100;
+	-webkit-margin-before:0;
+}
+
+.skill h3 {
+	text-align: center;
+}
+
+.carousel-caption h3 {
+	font-family: 'Roboto Slab', serif;
+	color: #FFF;
+	font-weight: 600;
+}
+
+.carousel-caption p {
+	font-family: 'Roboto Slab', serif;
+	color: #FFF;
+	font-weight: 800;
+}
+
+/*.navbar {
+	font-family: 'Indie Flower', cursive;
+}
+
+.navbar ul li {
+	font-family: 'Indie Flower', cursive;
+}*/
+
+#contact {
+	font-size: 1.5em;
+}
+
+.glyphicon-home {
+	text-align: center;
+}
+
+.form-group label {
+	font-size: 80%;
+	color: white;
+}
+
+.panel-body {
+	font-family: 'Indie Flower', cursive;
+}
+
+.panel-title {
+	color: #567570;
+}

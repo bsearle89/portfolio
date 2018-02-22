@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+.header h1 {
+	text-align: center;
+}
+.image {
+	display: inline-block;
+	float: left;
+	width: 30%
+}
+.column {
+	display: inline-block;
+	float: left;
+	width: 30%
+}
+.about-image {
+	width: 100%;
+}
+.main-text {
+	clear: both;
+	padding-top: 60px;
+	padding: top right bottom left;
+}
+.contact {
+	display: inline-block;
+	float: left;
+	width: 30%;
+}
+.previous-projects {
+	text-align: center;
+	float: left;
+	width: 70%;
+}
+.first-row div {
+	display: inline-block;
+	float: left;
+	width: 30%;
+	padding: 0 10%
+}
+.second-row div {
+	display: inline-block;
+	float: left;
+	width: 30%;
+	padding: 0 10%;
+}
+
+#skill-list {
+	margin-left: 50px;
+}
+
+/*Typography*/
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: Tahoma, Helvetica, Arial, sans-serif;
+}
+
+p,
+li {
+	font-family: Georgia, Times, serif;
+}
+
+.intro p {
+	font-weight: 100;
+	-webkit-margin-before:0;
+}
+
+.skill h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+body {
+	background-color: #fffeea;
+	color: #34495e;
+}
+
+.skill {
+	background-color: #5AD4C2;
+	color: #FFF;
+	padding: 10px 0
+}

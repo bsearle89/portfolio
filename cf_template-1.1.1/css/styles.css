@@ -1,0 +1,9 @@
+/*backround*/
+
+.jumbotron {
+	background-image: url("../img/computer.jpg");
+	background-size: cover;
+}
+.jumbotron p {
+	color: white;
+}

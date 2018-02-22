@@ -1,0 +1,68 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-image: url(../img/computer.jpg);
+	background-size: cover;
+}
+.contact-container {
+	width: 90%;
+	margin: 0 auto;
+}
+#nav-items li {
+	display: inline-block;
+	padding: 20px;
+}
+.navigation {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+.header {
+	text-align: center;
+}
+.column2 {
+	display: inline-block;
+	width: 50%;
+	padding: 1.5em 1.5em;
+}
+.contact-info {
+	float: left;
+	text-align: center;
+}
+.home-town {
+	float: right;
+	text-align: center;
+}
+.map-image {
+	width: 100%;
+}
+.social-media {
+	float: left;
+	width: 50%;
+	text-align: center;
+	margin-top: 5em;
+}
+li {
+	text-align: left;
+}
+/*typopgraphy*/
+
+h1,
+h3 {
+	font-family: arial black, arial, tahoma, sans-serif;
+}
+.contact-info {
+	background-color: #9ab7d3;
+	color: #2e0000;
+}
+.social-media {
+	background-color: #9ab7d3;
+	color: #2e0000;
+}
+.home-town {
+	color: #2e0000;
+}
+.header {
+	color: #2e0000;
+}
